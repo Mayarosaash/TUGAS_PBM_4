@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 it.putExtra("NIK ", NIK)
                 it.putExtra("Nama ", nama)
                 it.putExtra("Tanggal lahir ", ttl)
-                it.putExtra("Jenis kel ", kelamin)
+                it.putExtra("Jenis kel ", isigender)
                 it.putExtra("Golongan darah ", goldar)
                 it.putExtra("Alamat ", alamat)
                 it.putExtra("Pekerjaan ", pekerjaan)

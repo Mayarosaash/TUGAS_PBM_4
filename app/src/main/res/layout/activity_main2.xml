@@ -44,7 +44,7 @@
             android:text="NIK :"/>
 
         <TextView
-            android:id="@+id/editNIK"
+            android:id="@+id/dataNIK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi NIK anda"
@@ -64,7 +64,7 @@
             android:text="Nama :"/>
 
         <TextView
-            android:id="@+id/editnama"
+            android:id="@+id/dataNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Nama anda"
@@ -84,7 +84,7 @@
             android:text="Tempat / Tanggal Lahir :"/>
 
         <TextView
-            android:id="@+id/editttl"
+            android:id="@+id/dataTtl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Tempat dan Tanggal Lahir anda"
@@ -105,7 +105,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="10dp"/>
         <TextView
-            android:id="@+id/jkelmin"
+            android:id="@+id/dataJkel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Jenis Kelamin Anda"
@@ -124,7 +124,7 @@
             android:text="Gol Darah :"/>
 
         <TextView
-            android:id="@+id/editgoldar"
+            android:id="@+id/dataGoldar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Golongan darah anda"
@@ -144,7 +144,7 @@
             android:text="Alamat :"/>
 
         <TextView
-            android:id="@+id/editalamat"
+            android:id="@+id/dataAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Alamat anda"
@@ -169,7 +169,7 @@
             android:text="Pekerjaan :"/>
 
         <TextView
-            android:id="@+id/editpekerjaan"
+            android:id="@+id/dataKerja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Pekerjaan anda"
@@ -189,7 +189,7 @@
             android:text="Kewarganegaraan :"/>
 
         <TextView
-            android:id="@+id/editkewarganegaraan"
+            android:id="@+id/dataKewarganegaraan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="isi Kewarganegaraan anda"

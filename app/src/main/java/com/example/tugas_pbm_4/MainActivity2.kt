@@ -21,34 +21,37 @@ class MainActivity2 : AppCompatActivity() {
         }
         val inik = intent.getStringExtra("NIK ")
         val inama = intent.getStringExtra("Nama ")
-        val ittl = intent.getStringExtra("Tanggal Lahir ")
-        val ikelamin = intent.getStringExtra("Jenis kel")
-        val igoldar = intent.getStringExtra("Golongan darah")
-        val ialamat = intent.getStringExtra("Alamat")
-        val ipekerjaan = intent.getStringExtra("Pekerjaan")
+        val ittl = intent.getStringExtra("Tanggal lahir ")
+        val ikelamin = intent.getStringExtra("Jenis kel ")
+        val igoldar = intent.getStringExtra("Golongan darah ")
+        val ialamat = intent.getStringExtra("Alamat ")
+        val ipekerjaan = intent.getStringExtra("Pekerjaan ")
         val ikewarganegaraan = intent.getStringExtra("Kewarganegaraan ")
 
 
-        val nik = findViewById<TextView>(R.id.editNIK).apply {
+        val nik = findViewById<TextView>(R.id.dataNIK).apply {
             text = inik
         }
-        val nama = findViewById<TextView>(R.id.editnama).apply {
+        val nama = findViewById<TextView>(R.id.dataNama).apply {
             text = inama
         }
-        val TTL = findViewById<TextView>(R.id.editttl).apply {
+        val TTL = findViewById<TextView>(R.id.dataTtl).apply {
             text = ittl
         }
-        val JKEL = findViewById<TextView>(R.id.jkelmin).apply {
+        val JKEL = findViewById<TextView>(R.id.dataJkel).apply {
             text = ikelamin
         }
-        val GOLDAR = findViewById<TextView>(R.id.editgoldar).apply {
+        val GOLDAR = findViewById<TextView>(R.id.dataGoldar).apply {
             text = igoldar
         }
-        val ALAMAT = findViewById<TextView>(R.id.editalamat).apply {
+        val ALAMAT = findViewById<TextView>(R.id.dataAlamat).apply {
             text = ialamat
         }
-        val PEKERJAAN = findViewById<TextView>(R.id.editpekerjaan).apply {
+        val PEKERJAAN = findViewById<TextView>(R.id.dataKerja).apply {
             text = ipekerjaan
+        }
+        val KWN = findViewById<TextView>(R.id.dataKewarganegaraan).apply {
+            text = ikewarganegaraan
         }
 
         val Back = findViewById<Button>(R.id.bback)
