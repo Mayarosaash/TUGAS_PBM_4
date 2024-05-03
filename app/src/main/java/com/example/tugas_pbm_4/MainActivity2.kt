@@ -29,45 +29,30 @@ class MainActivity2 : AppCompatActivity() {
         val ikewarganegaraan = intent.getStringExtra("Kewarganegaraan ")
 
 
-        val nik = findViewById<TextView>(R.id.inik).apply {
-            text = isiNik
+        val nik = findViewById<TextView>(R.id.editNIK).apply {
+            text = inik
         }
-        val nama = findViewById<TextView>(R.id.isiNama).apply {
-            text = isiNama
+        val nama = findViewById<TextView>(R.id.editnama).apply {
+            text = inama
         }
-        val TTL = findViewById<TextView>(R.id.isiTanggalLahir).apply {
-            text = isiTtl
+        val TTL = findViewById<TextView>(R.id.editttl).apply {
+            text = ittl
         }
-        val jenisKel = findViewById<TextView>(R.id.isiJenisKlemain).apply {
-            text = isiJKel
+        val JKEL = findViewById<TextView>(R.id.jkelmin).apply {
+            text = ikelamin
         }
-        val goldar = findViewById<TextView>(R.id.isiGolDar).apply {
-            text = isiGolDar
+        val GOLDAR = findViewById<TextView>(R.id.editgoldar).apply {
+            text = igoldar
         }
-        val alamat = findViewById<TextView>(R.id.isiAlamat).apply {
-            text = isiAlamat
+        val ALAMAT = findViewById<TextView>(R.id.editalamat).apply {
+            text = ialamat
         }
-        val rtrw = findViewById<TextView>(R.id.isiRTRW).apply {
-            text = isiRTRW
-        }
-        val desa = findViewById<TextView>(R.id.isiDesa).apply {
-            text = isiDesa
-        }
-        val kecamatan = findViewById<TextView>(R.id.isiKecamatan).apply {
-            text = isiKecamatan
-        }
-        val agama = findViewById<TextView>(R.id.isiAgama).apply {
-            text = isiAgama
-        }
-        val kawin = findViewById<TextView>(R.id.isiKawin).apply {
-            text = isiKawin
-        }
-        val kerja = findViewById<TextView>(R.id.isiPekerjaan).apply {
-            text = isiKerja
+        val PEKERJAAN = findViewById<TextView>(R.id.editpekerjaan).apply {
+            text = ipekerjaan
         }
 
-        val kembali = findViewById<Button>(R.id.btnKembali)
-        kembali.setOnClickListener(View.OnClickListener {
+        val Back = findViewById<Button>(R.id.bback)
+        Back.setOnClickListener(View.OnClickListener {
             finish()
         })
     }

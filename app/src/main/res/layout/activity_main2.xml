@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:text="NIK :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editNIK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:text="Nama :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editnama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:text="Tempat / Tanggal Lahir :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editttl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:text="Gol Darah :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editgoldar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
             android:layout_height="wrap_content"
             android:text="Alamat :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editalamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,7 +168,7 @@
             android:layout_height="wrap_content"
             android:text="Pekerjaan :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editpekerjaan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
             android:layout_height="wrap_content"
             android:text="Kewarganegaraan :"/>
 
-        <EditText
+        <TextView
             android:id="@+id/editkewarganegaraan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -230,7 +230,7 @@
             android:orientation="vertical"
             android:layout_gravity="center">
             <Button
-                android:id="@+id/ssave"
+                android:id="@+id/bback"
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
